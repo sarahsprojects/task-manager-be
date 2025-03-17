@@ -1,26 +1,54 @@
-# Task management
+# Task Management
 
-Video demo: https://drive.google.com/file/d/1U-zhC0wdDXrMd3rm12j_AxKJmzn1-NBS/view?usp=sharing
+## Screenshots
 
-I used https://github.com/brocoders/nestjs-boilerplate for the backend boilerplate and https://github.com/brocoders/extensive-react-boilerplate for the frontend boilerplate.
+<img width="1133" alt="Task Manager Screenshot 1" src="https://github.com/user-attachments/assets/1b259a26-7e67-42a9-81f6-69e27e5b96a5" />
+<img width="1129" alt="Task Manager Screenshot 2" src="https://github.com/user-attachments/assets/c53a9bdd-3458-4ce4-912c-08edda88e24c" />
 
-How to set up:
+## Video Demo
+🎥 [Watch the demo](https://drive.google.com/file/d/1U-zhC0wdDXrMd3rm12j_AxKJmzn1-NBS/view?usp=sharing)
 
-Please excuse the lack of monorepo, I didn't have the time to get one properly set up and tested.
+## Tech Stack
 
-`git clone https://github.com/sarahsprojects/task-manager-be.git task-manager-be && cd task-manager-be && npm install`
+I used the following boilerplates:
+
+- **Backend**: [Brocoders NestJS Boilerplate](https://github.com/brocoders/nestjs-boilerplate)
+- **Frontend**: [Brocoders Extensive React Boilerplate](https://github.com/brocoders/extensive-react-boilerplate)
+
+---
+
+## 🚀 Setup Instructions
+
+> _Please excuse the lack of a monorepo; I didn’t have time to set one up and test it properly._
+
+### 1️⃣ Clone & Setup Backend
+
+```sh
+git clone https://github.com/sarahsprojects/task-manager-be.git task-manager-be
+cd task-manager-be
+npm install
+```
 
 `cp env-example-relational .env`
 
-Then replace with your database access variables in file `.env`
+Then update .env with your database access credentials.
 
-`npm run dev` will run the backend.
+Start the backend:
 
-Next, clone and run the frontend
+`npm run dev``
 
-`git clone https://github.com/sarahsprojects/task-manager-fe.git task-manager-fe && cd task-manager-fe && npm install`
 
-Files of concern:
+### 2️⃣ Clone & Setup Frontend
+
+Next, clone and run the frontend in another terminal
+
+```sh
+git clone https://github.com/sarahsprojects/task-manager-fe.git task-manager-fe 
+cd task-manager-fe
+npm install
+```
+
+### 📂 Files of Interest
 
 Backend: https://github.com/sarahsprojects/task-manager-be
 -- Backend files I wrote all here: https://github.com/sarahsprojects/task-manager-be/tree/main/src/tasks 
