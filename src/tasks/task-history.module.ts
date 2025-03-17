@@ -5,9 +5,9 @@ import { TaskHistoryService } from './task-history.service';
 import { TaskHistoryController } from './task-history.controller';
 
 @Module({
-  imports: [TypeOrmModule.forFeature([TaskHistoryEntity])], // ✅ Registers TaskHistoryEntity
-  controllers: [TaskHistoryController], // ✅ Exposes task history endpoints
-  providers: [TaskHistoryService], // ✅ Business logic for task history
-  exports: [TaskHistoryService], // ✅ Allows other modules to use this service
+  imports: [TypeOrmModule.forFeature([TaskHistoryEntity])], 
+  controllers: [TaskHistoryController], 
+  providers: [TaskHistoryService], 
+  exports: [TaskHistoryService, TypeOrmModule],
 })
 export class TaskHistoryModule {}
