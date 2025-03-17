@@ -33,9 +33,11 @@ npm install
 
 Then update .env with your database access credentials.
 
+Then `npm run migration:run` to run the migration to create the database tables.
+
 Start the backend:
 
-`npm run dev``
+`npm run dev`
 
 
 ### 2️⃣ Clone & Setup Frontend
