@@ -50,12 +50,12 @@ npm install
 
 ### 📂 Files of Interest
 
-Backend: https://github.com/sarahsprojects/task-manager-be
--- Backend files I wrote all here: https://github.com/sarahsprojects/task-manager-be/tree/main/src/tasks 
+### Backend
+- **Task-related backend NestJS files:** [src/tasks](https://github.com/sarahsprojects/task-manager-be/tree/main/src/tasks)
 
-Frontend:
--- Frontend UI files: https://github.com/sarahsprojects/task-manager-fe/tree/main/src/app/%5Blanguage%5D/task-manager
--- Frontend Hooks: https://github.com/sarahsprojects/task-manager-fe/tree/main/src/hooks
+### Frontend
+- **UI components:** [task-manager UI files](https://github.com/sarahsprojects/task-manager-fe/tree/main/src/app/%5Blanguage%5D/task-manager)
+- **Custom hooks:** [task-manager hooks](https://github.com/sarahsprojects/task-manager-fe/tree/main/src/hooks)
 
 Functionality
 * Create a task
