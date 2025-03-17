@@ -2,7 +2,6 @@ import { Module } from '@nestjs/common';
 import { UsersModule } from './users/users.module';
 import { FilesModule } from './files/files.module';
 import { TasksModule } from './tasks/tasks.module';
-import { TaskHistoryModule } from './tasks/task-history.module';
 
 import { AuthModule } from './auth/auth.module';
 import databaseConfig from './database/config/database.config';
@@ -64,7 +63,6 @@ const infrastructureDatabaseModule = TypeOrmModule.forRootAsync({
     FilesModule,
     AuthModule,
     TasksModule,
-    TaskHistoryModule,
     SessionModule,
     MailModule,
     MailerModule,

@@ -47,7 +47,6 @@ async function bootstrap() {
     )
     .setVersion('1.0')
     .addTag('tasks', 'Endpoints related to tasks management')
-    .addTag('task-history', 'Endpoint related to task status changes')
     .addBearerAuth() // Adds JWT authentication to Swagger UI
     .build();
 

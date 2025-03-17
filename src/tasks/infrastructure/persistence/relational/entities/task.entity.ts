@@ -7,8 +7,8 @@ import {
   DeleteDateColumn,
   OneToMany,
 } from 'typeorm';
-import { TaskHistoryEntity } from './task-history.entity';
 import { TaskStatus } from '../../../../domain/task';
+import { TaskHistoryEntity } from './task-history.entity';
 
 @Entity('task')
 export class TaskEntity {

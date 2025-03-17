@@ -44,7 +44,6 @@ export class TasksService {
     // Use transaction to ensure database consistency
     return this.taskRepository.manager.transaction(
       async (transactionalEntityManager) => {
-        
         const task = await transactionalEntityManager.findOne(TaskEntity, {
           where: { id, deletedAt: IsNull() },
         });
